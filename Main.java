@@ -46,8 +46,8 @@ class Reader{
 public class Main {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-        Reader[] readers = new Reader[2];
-        for (int i = 0; i < 2; i++){
+        Reader[] readers = new Reader[5];
+        for (int i = 0; i < 5; i++){
             System.out.print("ФИО: ");
             String fullName = scanner.nextLine();
             System.out.print("Номер читательского билета: ");
